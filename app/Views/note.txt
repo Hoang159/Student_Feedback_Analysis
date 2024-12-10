@@ -15,3 +15,12 @@ class: nhiều đối tượng chung style, sử dụng dấu . để refer
 
 Trang sinh viên
 Trang chủ / Thực hiện khảo sát / Kết quả khảo sát / Chào Nguyễn Văn ABC (mssv) / Đăng xuất
+        Thực hiện khảo sát / hiện ra 1  
+
+Trang giáo viên
+Trang chủ / Tạo khảo sát / Kết quả khảo sát / Chào username / Đăng xuất
+        Tạo khảo sát / kì học + môn học + số tín + đã học + đã đánh giá
+        
+
+Trang admin
+Trang chủ

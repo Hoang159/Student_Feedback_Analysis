@@ -116,7 +116,6 @@ ul.list {
     text-decoration: none;
 }
 
-
 .dangnhap {
     text-align: center;
     padding: 20px;
@@ -138,7 +137,7 @@ ul.list {
     width: 90%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 5px;
 }
 .dangnhap form input[type="radio"] {
@@ -205,4 +204,11 @@ ul.list {
         margin-left: 0;
         margin-top: 20px;
     }
+}
+
+.content-section {
+    display: none; /* Ẩn các phần mặc định */
+}
+.content-section.active {
+    display: block; /* Hiển thị phần có lớp 'active' */
 }

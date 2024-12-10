@@ -62,20 +62,19 @@
     <!--Chỗ này viết html cho phần "Đăng nhập"-->
       <img alt="User Icon" height="100" src="/public/images/login.png" width="100"/>
       <form>
-        <label> Bạn là sinh viên: </label>
+        <!-- <label> Bạn là sinh viên: </label>
         <input checked="" name="student_status" type="radio" value="current"/> Đang còn học
-        <input name="student_status" type="radio" value="graduate"/> Đã tốt nghiệp
-
-        <br/>
-        <br>
-          <label for="username"> Tài Khoản: </label>
+        <input name="student_status" type="radio" value="graduate"/> Đã tốt nghiệp -->
+        
+        <!-- <tr>
+          <td style = "text-align: left;">Tài Khoản</td>
+          <td style = "text-align: right;"><input id="username" name="username" type="text"/></td>
+        </tr> -->
+          <label for="username">Tài Khoản</label>
           <input id="username" name="username" type="text"/>
-          
-        <br/>
-          <label for="password"> Mật khẩu: </label>
+          <br>
+          <label for="password">Mật khẩu</label>
           <input id="password" name="password" type="password" autocomplete = "off"/>
-       
-        <br/>
           <!-- <input type="submit" value="Đăng nhập" onclick="showSection('')"/> -->
           <button type = "submit" onclick = "">Đăng nhập</button>
       </form>

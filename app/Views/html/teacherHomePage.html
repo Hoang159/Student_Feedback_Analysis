@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+<!-- Tạm thời  -->
 <html>
     <head>
-        <link rel = "stylesheet" href = "/app/Views/css/studentHomePage.css">
+        <link rel = "stylesheet" href = "/app/Views/css/teacherHomePage.css">
         <title> HHP Feedback Analysis System</title>
         <link rel="icon" href="/public/images/Logo.png" type="image/png">
     </head>
@@ -16,11 +17,10 @@
             <ul class="nav">
               <li><a href="#"onclick="showSection('home')">Trang chủ</a></li>
               <!-- <li><a href="#"onclick="showSection('calendar')">Lịch khảo sát</a></li> -->
-              <li><a href="#"onclick="showSection('survey')">Thực hiện khảo sát</a></li>
+              <li><a href="#"onclick="showSection('result')">Kết quả khảo sát</a></li>
               <!-- <li><a href="#" onclick="showSection('result')">Kết quả khảo sát</a></li> -->
               <li><a>Chào <var>username</var> (<var>mssv</var>)</a></li>
               <!-- dòng phía trên hiển thị tên và mssv dựa vào thông tin đăng nhập -->
-              <!-- Đăng xuất = đưa về homePage -->
               <li><a href="/public/index.html">Đăng xuất</a></li>
             </ul>
           </div>
@@ -31,7 +31,7 @@
             <div id="home" class="content-section active trangchu">
             <!-- <img alt="Graduation ceremony with students and faculty members holding certificates and flowers" height="20" src="/public/images/Logo.png" width="80"/> -->
               <div class="text">
-                  <p> <strong>Chào các anh chị sinh viên, học viên,</strong></p>
+                  <p> <strong>Chào các anh chị thầy cô, giảng viên</strong></p>
                   <p> Trường Đại học Bách khoa - Đại học Đà Nẵng sử dụng hệ thống khảo sát trực tuyến 
                   <a href="http://fb.dut.udn.vn"> http://fb.dut.udn.vn</a> để khảo sát ý kiến người học:
                   </p>
@@ -44,55 +44,49 @@
                   <li> <strong>Về tình hình việc làm sau tốt nghiệp.</strong> Khảo sát này được thực hiện đối với sinh viên, học viên về Trường đăng ký dự Lễ trao bằng tốt nghiệp. </li>
                   </ul>
               
-                  <p> Nhà trường rất mong các anh chị sinh viên, học viên, cựu sinh viên, học viên cùng các khách quan. Cảm ơn các anh chị đã và điều kiện hợp tác để Nhà trường cải tiến các hoạt động và quản lý của Trường để nâng lại chất lượng đào tạo ngày tốt hơn cho người học. </p>
+                  <p> Nhà trường rất mong các anh chị thầy cô giảng viên cùng các khách quan. Cảm ơn các anh chị đã và điều kiện hợp tác để Nhà trường cải tiến các hoạt động và quản lý của Trường để nâng lại chất lượng đào tạo ngày tốt hơn cho người học. </p>
                   <p><strong> TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐẠI HỌC ĐÀ NẴNG </strong></p>
               </div>
             </div>
 
-            <!-- trang thực hiện khảo sát -->
-            <div id = "survey" class = "content-section khaosat">
-              <table class = "khaosat">
+            <!-- kết quả khảo sát -->
+            <div id = "result" class = "content-section ketqua">
+              <table class = "ketqua">
+                <!-- bảng này có tổng cộng 6 cột -->
                 <tr>
                   <th>Số thứ tự</th>
+                  <th>Mã học phần</th>
                   <th>Tên học phần</th>
-                  <th>Số tín chỉ</th>
-                  <th>Giảng viên</th>
-                  <th>Đã học</th>
-                  <th>Đã khảo sát</th>
+                  <th>Trạng thái khảo sát</th>
+                  <th>Tổng trung bình điểm khảo sát</th>
+                  <th>Nhận xét</th>
                 </tr>
                 <tr>
                   <td>1</td>
-                  <td>Toán chuyên ngành</td>
-                  <td>3</td>
-                  <td>Nguyễn Văn A</td>
-                  <td>v</td>
-                  <td>v</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>Tư tưởng Hồ Chí Minh</td>
-                  <td>2</td>
-                  <td>Nguyễn Văn B</td>
-                  <td>v</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                   <td></td>
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>Vật lý 2</td>
-                  <td>3</td>
-                  <td>Nguyễn Văn C</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                   <td></td>
                   <td></td>
                 </tr>
               </table>
             </div>
-
-            <!-- kết quả khảo sát -->
-            <!-- <div id = "result" class = " ">
-
-            </div> -->
-
-            <!-- đăng xuất -> quay trở lại trang chủ -->
     </body>
 
     <footer>
