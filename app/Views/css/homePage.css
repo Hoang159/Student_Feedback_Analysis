@@ -1,3 +1,7 @@
+html  {
+    overflow-y: scroll;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,9 +11,12 @@ body {
 
 .header {
     background-color: white;
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
     border-bottom: 5px solid #007bff;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box; /*đảm bảo padding ko làm tăng width*/
 }
 .header img {
     vertical-align: middle;
@@ -20,14 +27,6 @@ body {
     color: #007bff;
     margin-left: 10px;
     vertical-align: middle;
-}
-
-footer {
-    text-align: center;
-    padding: 5px;
-    background-color: #007bff;
-    color: white;
-    display: block;
 }
 
 /* Căn đoạn văn bản ra giữa trang */
@@ -44,7 +43,7 @@ ul.list {
 .navigation {
     background-color: #2865FF;
     color: white;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     position: sticky; 
     top: 0;
@@ -53,7 +52,7 @@ ul.list {
 
 .nav {
     list-style: none;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     display: flex;
     /* justify-content: center; */
@@ -108,6 +107,7 @@ ul.list {
     text-align: center;
     padding: 20px;
 }
+
 .dangnhap img {
     width: 100px;
     height: 100px;
@@ -147,6 +147,13 @@ ul.list {
     color: white;
 }
 
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+    display: block;
+}
 /* 
 .button {
     border: none;

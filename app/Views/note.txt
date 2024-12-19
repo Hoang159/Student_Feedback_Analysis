@@ -21,6 +21,6 @@ Trang giáo viên
 Trang chủ / Tạo khảo sát / Kết quả khảo sát / Chào username / Đăng xuất
         Tạo khảo sát / kì học + môn học + số tín + đã học + đã đánh giá
         
-
-Trang admin
-Trang chủ
+chỉnh lại nav bar trang form.html
+chỉnh lại title trang student và teacher
+thêm chỗ bấm quay lại thực hiện khảo sát
